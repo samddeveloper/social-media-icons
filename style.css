@@ -1,0 +1,57 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
+
+body {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons li {
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #ff69b4;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #ffd700;
+  font-size: 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #00ff7f;
+  transform: rotate(360deg) scale(1.2);
+}
+
+.social-icons a i {
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover i {
+  color: #1e1e1e;
+}
